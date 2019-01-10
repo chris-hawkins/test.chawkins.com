@@ -1,4 +1,4 @@
-var setCookie = function(name value) {
+var setCookie = function(name, value) {
   document.cookie =
         name +
         "=" +
