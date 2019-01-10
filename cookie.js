@@ -4,7 +4,7 @@ var setCookie = function(name value) {
         "=" +
         value +
         "; path=/; domain=" +
-        "chawkins.com +
+        "chawkins.com" +
         "; expires=" +
         new Date(+new Date() + 1000 * 60 * 60 * 24 * 365).toUTCString(); // one year
 };
